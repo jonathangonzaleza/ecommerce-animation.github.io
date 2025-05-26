@@ -1,421 +1,225 @@
 <!DOCTYPE html>
-<html lang="es">
-  <head>
+<html lang="en">
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nutriamar</title>
-    <!--Favicon-->
-    <link rel="icon" href="./assets/img/favicon.png" />
+    <title>COMTECH</title>
+    <!--logo-->
+     <link rel="shortcut icon" href="./assets/img/comtech2.png" type="image/x-icon">
     <!--Mi css-->
-    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <!--Font Family-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&display=swap" rel="stylesheet" />
     <!-- Font Awesome (para iconos) -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
-  </head>
-  <body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
     <!--Nav-->
     <nav class="navbar">
-      <img src="./assets/img/favicon.png" alt="Logo" class="nav-logo" />
-      <!-- Checkbox invisible -->
-      <label class="hamburger-btn">☰</label>
-      <!-- Botón visible -->
-      <div class="nav-menu">
-        <ul>
-          <li><a href="./index.html">Catálogo</a></li>
-          <li><a href="./ofertas.html">Ofertas</a></li>
-          <li><a href="./contacto.html">Contacto</a></li>
-        </ul>
-      </div>
+        <img src="./assets/img/logo.png" alt="Logo" class="nav-logo" />
+        <!-- Checkbox invisible -->
+        <label class="hamburger-btn">☰</label>
+        <!-- Botón visible -->
+        <div class="nav-menu">
+            <ul>
+                <li><a href="./index.html">Catalog</a></li>
+                <li><a href="./offers.html">Offers</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
     </nav>
     <!--Search-->
     <section class="search-container">
-      <div class="search-header">
-        <h1>Nutriamar</h1>
-        <h2>Energía natural en cada bocado 🍯🌿</h2>
-      </div>
-      <div class="search-bar">
-        <input
-          type="text"
-          placeholder="Buscar productos..."
-          class="search-input"
-        />
-        <button class="search-btn">
-          <i class="fas fa-search"></i>
-        </button>
-      </div>
+        <div class="search-header">
+            <h1>COMTECH</h1>
+            <h2>All in technology! 👨‍💻👩‍💻</h2>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for your product..." class="search-input" />
+            <button class="search-btn">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
     </section>
     <!--Cards-->
     <main>
-      <section class="products-cards">
-        <!--Card 1-->
-        <div class="product-card">
-          <!-- Badge de oferta visible solo si tiene contenido -->
-          <div class="offer-badge"><p>-25%</p></div>
-          <img
-            class="product-img"
-            src="./assets/img/granola-casera-1.jpg"
-            alt="Granola Artesanal Crujiente - Energía 100% Natural"
-          />
-          <div class="product-info">
-            <h3 class="product-name">
-              Granola Artesanal Crujiente - Energía 100% Natural
-            </h3>
-            <p class="product-desc">
-              Mezcla tostada de avena, miel pura, nueces y coco. Sin
-              conservantes, endulzada naturalmente. Perfecta con yogur o como
-              snack energético. ¡Croacante y llena de sabor!
-            </p>
-            <p class="product-price">$13.000</p>
-            <button class="product-btn">
-              Añadir al carrito <i class="fa-solid fa-cart-shopping"></i>
-            </button>
-          </div>
-        </div>
-        <!--Card 2-->
-        <div class="product-card">
-          <div class="offer-badge"><p>-25%</p></div>
-          <img
-            class="product-img"
-            src="./assets/img/granola-casera-2.jpg"
-            alt="Granola Power Protein - Doble Nutrición"
-          />
-          <div class="product-info">
-            <h3 class="product-name">
-              Granola Power Protein - Doble Nutrición
-            </h3>
-            <p class="product-desc">
-              Avena reforzada con proteína vegetal, almendras y semillas de
-              chía. Ideal para deportistas o como snack saludable. 12g de
-              proteína por porción. ¡Sabor que alimenta!
-            </p>
-            <p class="product-price">$15.000</p>
-            <button class="product-btn">
-              Añadir al carrito <i class="fa-solid fa-cart-shopping"></i>
-            </button>
-          </div>
-        </div>
-        <!--Card 3-->
-        <div class="product-card">
-          <div class="offer-badge"></div>
-          <img
-            class="product-img"
-            src="./assets/img/cheesecake-choc.jpg"
-            alt="Cheesecake Fit Creamy - Indulgencia Saludable"
-          />
-          <div class="product-info">
-            <h3 class="product-name">
-              Cheesecake Fit Creamy - Indulgencia Saludable
-            </h3>
-            <p class="product-desc">
-              Base de nuez y dátiles con relleno cremoso de queso cottage y
-              proteína. Solo 3g de azúcar por porción. Opción keto disponible.
-              ¡Postre gourmet que cuida tu dieta!
-            </p>
-            <p class="product-price">$18.000</p>
-            <button class="product-btn">
-              Añadir al carrito <i class="fa-solid fa-cart-shopping"></i>
-            </button>
-          </div>
-        </div>
-        <!--Card 4-->
-        <div class="product-card">
-          <div class="offer-badge"></div>
-          <img
-            class="product-img"
-            src="./assets/img/cheesecake-berries.jpg"
-            alt="Berry Protein Cheesecake - Explosión Frutal"
-          />
-          <div class="product-info">
-            <h3 class="product-name">
-              Berry Protein Cheesecake - Explosión Frutal
-            </h3>
-            <p class="product-desc">
-              Base de almendras y dátiles con cremosa capa de queso philadelphia
-              light + proteína de frambuesa. Coronado con coulis de berries
-              casero (arándanos, frambuesas y moras). Solo 180 calorías por
-              porción. ¡Postre fitness que parece pecado!
-            </p>
-            <p class="product-price">$18.000</p>
-            <button class="product-btn">
-              Añadir al carrito <i class="fa-solid fa-cart-shopping"></i>
-            </button>
-          </div>
-        </div>
-        <!--Card 5-->
-        <div class="product-card">
-          <div class="offer-badge"><p>-25%</p></div>
-          <img
-            class="product-img"
-            src="./assets/img/brownies-de-avena-y-proteina-chocolate.jpg"
-            alt="Protein Brownie -"
-          />
-          <div class="product-info">
-            <h3 class="product-name">
-              Berry Protein Cheesecake - Explosión Frutal
-            </h3>
-            <p class="product-desc">
-              Brownie horneado con harina de almendra, cacao 100% y proteína de
-              chocolate. Textura densa y jugosa, con chips de chocolate negro
-              (70% cacao). Solo 5g de azúcar por porción y 12g de proteína. ¡El
-              antojo saludable que no sabías que necesitabas!
-            </p>
-            <p class="product-price">$16.000</p>
-            <button class="product-btn">
-              Añadir al carrito <i class="fa-solid fa-cart-shopping"></i>
-            </button>
-          </div>
-        </div>
-        <!--Card 6-->
-        <div class="product-card">
-          <div class="offer-badge"><p>-25%</p></div>
-          <img
-            class="product-img"
-            src="./assets/img/barras-proteina.jpg"
-            alt="Golden Nut Crunch Bars - Energía Portátil"
-          />
-          <div class="product-info">
-            <h3 class="product-name">
-              Golden Nut Crunch Bars - Energía Portátil
-            </h3>
-            <p class="product-desc">
-              Base de dátiles, mezcla premium de almendras, nueces y avena. Sin
-              conservantes, endulzada con miel de agave. 9g de proteína y grasas
-              saludables. ¡Tu snack para el hiking, gym o tarde de trabajo!
-            </p>
-            <p class="product-price">$7.500</p>
-            <button class="product-btn">
-              Añadir al carrito <i class="fa-solid fa-cart-shopping"></i>
-            </button>
-          </div>
-        </div>
-        <!--Card 7-->
-        <div class="product-card">
-          <div class="offer-badge"></div>
-          <img
-            class="product-img"
-            src="./assets/img/barras-proteina-choc.jpg"
-            alt="Nutty Chocolate Crunch Bars - Energía Portátil"
-          />
-          <div class="product-info">
-            <h3 class="product-name">
-              Nutty Chocolate Crunch Bars - Energía Portátil
-            </h3>
-            <p class="product-desc">
-              Base de dátiles, mezcla premium de almendras, nueces de la India y
-              pecanas, bañada en chocolate oscuro sin azúcar. Sin conservantes,
-              endulzada con miel de agave. 9g de proteína y grasas saludables.
-              ¡Tu snack para el hiking, gym o tarde de trabajo!
-            </p>
-            <p class="product-price">$8.500</p>
-            <button class="product-btn">
-              Añadir al carrito <i class="fa-solid fa-cart-shopping"></i>
-            </button>
-          </div>
-        </div>
-        <!--Card 8-->
-        <div class="product-card">
-          <div class="offer-badge"></div>
-          <img
-            class="product-img"
-            src="./assets/img/garbanzo-snack.jpg"
-            alt="Garbanzos horneados - Snack Proteico"
-          />
-          <div class="product-info">
-            <h3 class="product-name">Garbanzos horneados - Snack Proteico</h3>
-            <p class="product-desc">
-              Garbanzos tostados al horno con especias gourmet. Alto en fibra y
-              proteína vegetal (8g por porción). Tres versiones: Picante de
-              Chipotle, Dulce-Canela y Sal Marina-Romero. ¡Adictivamente
-              crujientes y 100% libres de fritura!
-            </p>
-            <p class="product-price">$12.000</p>
-            <button class="product-btn">
-              Añadir al carrito <i class="fa-solid fa-cart-shopping"></i>
-            </button>
-          </div>
-        </div>
-        <!--Card 9-->
-        <div class="product-card">
-          <div class="offer-badge"></div>
-          <img
-            class="product-img"
-            src="./assets/img/snack-fruit.jpg"
-            alt="Crispy Fruit Mix - Vitaminas Naturales en Estado Puro"
-          />
-          <div class="product-info">
-            <h3 class="product-name">
-              Crispy Fruit Mix - Vitaminas Naturales en Estado Puro
-            </h3>
-            <p class="product-desc">
-              Selección de manzana, piña y mango deshidratados a baja
-              temperatura (sin azúcar añadido). Conserva el 90% de nutrientes.
-              ¡Textura chewy y dulzor natural! Perfecto para lunchboxes o como
-              topping de yogur.
-            </p>
-            <p class="product-price">$10.000</p>
-            <button class="product-btn">
-              Añadir al carrito <i class="fa-solid fa-cart-shopping"></i>
-            </button>
-          </div>
-        </div>
-        <!--Card 10-->
-        <div class="product-card">
-          <div class="offer-badge"></div>
-          <img
-            class="product-img"
-            src="./assets/img/snack-salad.jpg"
-            alt="Crispy Vegetable mix - Verduras Deshidratadas con Toque Especiado"
-          />
-          <div class="product-info">
-            <h3 class="product-name">
-              Crispy Vegetable mix - Verduras Deshidratadas con Toque Especiado
-            </h3>
-            <p class="product-desc">
-              Mix crujiente de: Remolacha con raspa de naranja, Camote y canela,
-              Zapallo tostado con pimentón ahumado Sin fritura, 100% vegetal y
-              horneado lentamente. ¡Snack saludo con fibra y vitamina A!
-            </p>
-            <p class="product-price">$15.000</p>
-            <button class="product-btn">
-              Añadir al carrito <i class="fa-solid fa-cart-shopping"></i>
-            </button>
-          </div>
-        </div>
-        <!--Card 11-->
-        <div class="product-card">
-          <div class="offer-badge"><p>-25%</p></div>
-          <img
-            class="product-img"
-            src="./assets/img/galletas-fit.jpg"
-            alt="Garbanzos horneados - Snack Proteico"
-          />
-          <div class="product-info">
-            <h3 class="product-name">Garbanzos horneados - Snack Proteico</h3>
-            <p class="product-desc">
-              Garbanzos tostados al horno con especias gourmet. Alto en fibra y
-              proteína vegetal (8g por porción). Tres versiones: Picante de
-              Chipotle, Dulce-Canela y Sal Marina-Romero. ¡Adictivamente
-              crujientes y 100% libres de fritura!
-            </p>
-            <p class="product-price">$15.000</p>
-            <button class="product-btn">
-              Añadir al carrito <i class="fa-solid fa-cart-shopping"></i>
-            </button>
-          </div>
-        </div>
-        <!--Card 12-->
-        <div class="product-card">
-          <div class="offer-badge"><p>-25%</p></div>
-          <img
-            class="product-img"
-            src="./assets/img/turron-proteico.jpeg"
-            alt="Turrón Proteico de Almendra y Miel"
-          />
-          <div class="product-info">
-            <h3 class="product-name">Turrón Proteico de Almendra y Miel</h3>
-            <p class="product-desc">
-              Versión saludable del clásico turrón español, elaborado con:
-              Almendras tostadas enteras, Miel de flores silvestres, Proteína de
-              vainilla isolate Sin azúcar añadido, sin gluten y con un toque de
-              canela. ¡Textura firme pero derretible, perfecto para recuperación
-              muscular! (12g proteína/porción)
-            </p>
-            <p class="product-price">$7.500</p>
-            <button class="product-btn">
-              Añadir al carrito <i class="fa-solid fa-cart-shopping"></i>
-            </button>
-          </div>
-        </div>
-        <!--Card 13-->
-        <div class="product-card">
-          <div class="offer-badge"></div>
-          <img
-            class="product-img"
-            src="./assets/img/bolitas-energeticas-choc.jpg"
-            alt="Choco Protein Balls"
-          />
-          <div class="product-info">
-            <h3 class="product-name">Choco Protein Balls</h3>
-            <p class="product-desc">
-              Bolitas sin horno con: Base de dátiles y avena, Proteína de
-              chocolate , Chips de cacao 70%, Mantequilla de almendras
-              Endulzadas con miel de agave y un toque de sal marina. ¡5g de
-              proteína por unidad y cero azúcar refinado! Ideal para pre/post
-              entrenamiento.
-            </p>
-            <p class="product-price">$9.000</p>
-            <button class="product-btn">
-              Añadir al carrito <i class="fa-solid fa-cart-shopping"></i>
-            </button>
-          </div>
-        </div>
-        <!--Card 14-->
-        <div class="product-card">
-          <div class="offer-badge"><p>-25%</p></div>
-          <img
-            class="product-img"
-            src="./assets/img/cocadas-energeticas.jpg"
-            alt="Cocadas Ultra Protein"
-          />
-          <div class="product-info">
-            <h3 class="product-name">Cocadas Ultra Protein</h3>
-            <p class="product-desc">
-              Bolitas de coco rallado artesanal mezclado con: Proteína de coco
-              hidrolizada, Leche de almendra en polvo y Endulzante de monk fruit
-            </p>
-            <p class="product-price">$8.000</p>
-            <button class="product-btn">
-              Añadir al carrito <i class="fa-solid fa-cart-shopping"></i>
-            </button>
-          </div>
-        </div>
-        <!--Card 15-->
-        <div class="product-card">
-          <div class="offer-badge"></div>
-          <img
-            class="product-img"
-            src="./assets/img/coco-choc.jpg"
-            alt="Nieve de Coco con Manto de Chocolate"
-          />
-          <div class="product-info">
-            <h3 class="product-name">Nieve de Coco con Manto de Chocolate</h3>
-            <p class="product-desc">
-              Núcleo cremoso de coco fresco y proteína de vainilla, bañado en:
-              Chocolate negro 70% cacao (opción keto), Chocolate blanco con
-              proteína (sin azúcar) Crocrante exterior y corazón blando. ¡Como
-              un Almond Joy pero con 40% menos calorías y 7g de proteína!
-            </p>
-            <p class="product-price">$9.000</p>
-            <button class="product-btn">
-              Añadir al carrito <i class="fa-solid fa-cart-shopping"></i>
-            </button>
-          </div>
-        </div>
-      </section>
+        <section class="products-cards">
+            <!--Card 1-->
+            <div class="product-card">
+                <!-- Badge de oferta visible solo si tiene contenido -->
+                <div class="offer-badge">
+                    <p>-25%</p>
+                </div>
+                <img class="product-img" src="./assets/img/Teclado1.jpg" alt="Argom Keyboard and Mouse Combo" />
+                <div class="product-info">
+                    <h3 class="product-name">
+                        Argom Keyboard and Mouse Combo
+                    </h3>
+                    <p class="product-desc">
+                        As part of our gaming collection, the Combat Gaming Keyboard and Mouse Combo is all you need to
+                        elevate..
+                    </p>
+                    <p class="product-price">C$603.1</p>
+                    <button class="product-btn">
+                        Add to cart <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                </div>
+            </div>
+            <!--Card 2-->
+            <div class="product-card">
+                <div class="offer-badge">
+                    <p>-25%</p>
+                </div>
+                <img class="product-img" src="./assets/img/placa2.jpg" alt="GIGABYTE H510M MOTHERBOARD" />
+                <div class="product-info">
+                    <h3 class="product-name">
+                        Gigabyte H510m Motherboard
+                    </h3>
+                    <p class="product-desc">
+                        MicroATX motherboard designed for 10th and 11th generation Intel processors using the LGA 1200
+                        socket. This motherboard is aimed at users looking for an economical yet reliable solution...
+                    </p>
+                    <p class="product-price">C$3,566.43</p>
+                    <button class="product-btn">
+                        Add to cart <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                </div>
+            </div>
+            <!--Card 3-->
+            <div class="product-card">
+                <div class="offer-badge"></div>
+                <img class="product-img" src="./assets/img/Teclado3.jpg"
+                    alt="Logitech K380 Wireless Bluetooth Keyboard, White" />
+                <div class="product-info">
+                    <h3 class="product-name">
+                        Logitech K380 Wireless Bluetooth Keyboard, White
+                    </h3>
+                    <p class="product-desc">
+                        Slim, lightweight, minimalist design made from recycled plastic ...
+                    </p>
+                    <p class="product-price">C$1,142.19</p>
+                    <button class="product-btn">
+                        Add to cart <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                </div>
+            </div>
+            <!--Card 4-->
+            <div class="product-card">
+                <div class="offer-badge"></div>
+                <img class="product-img" src="./assets/img/mouse4.jpg"
+                    alt="Argom Wireless Mouse / 2.4ghz / Red / Arg-Ms-0032" />
+                <div class="product-info">
+                    <h3 class="product-name">
+                        Argom Wireless Mouse / 2.4ghz / Red / Arg-Ms-0032
+                    </h3>
+                    <p class="product-desc">
+                    <ul>
+                        <li>2.4GHz Wireless Mouse with 6 buttons.</li>
+                        <li>Includes side control buttons (left and right)</li>
+                    </ul>
+                    </p>
+                    <p class="product-price">C$221.26</p>
+                    <button class="product-btn">
+                        Add to cart <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                </div>
+            </div>
+            <!--Card 5-->
+            <div class="product-card">
+                <div class="offer-badge">
+                    <p>-25%</p>
+                </div>
+                <img class="product-img" src="./assets/img/notepad5.jpg" alt="Logitech Pad Studio Pad" />
+                <div class="product-info">
+                    <h3 class="product-name">
+                        Logitech Pad Studio Pad
+                    </h3>
+                    <p class="product-desc">
+                        This mouse pad is ideal for those looking for an accessory that's not only functional but also
+                        adds an aesthetic touch to their work environment. Perfect for desktop and laptop computers, it
+                        offers comfort and improved mouse performance.
+                    </p>
+                    <p class="product-price">C$390</p>
+                    <button class="product-btn">
+                        Add to cart <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                </div>
+            </div>
+            <!--Card 6-->
+            <div class="product-card">
+                <div class="offer-badge">
+                    <p>-25%</p>
+                </div>
+                <img class="product-img" src="./assets/img/mouse6.jpg" alt="Mouse Logitech M190" />
+                <div class="product-info">
+                    <h3 class="product-name">
+                        Mouse Logitech M190
+                    </h3>
+                    <p class="product-desc">
+                        The Logitech M190 Wireless Mouse in blue offers comfort and precision with its ergonomic design
+                        and 2.4 GHz wireless technology. Its contoured shape fits comfortably in your hand, and its
+                        optical sensor provides smooth navigation. With long battery life and easy setup, it's ideal for
+                        those looking for a reliable and practical device for everyday use.
+                    </p>
+                    <p class="product-price">C$408.48</p>
+                    <button class="product-btn">
+                        Add to cart <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                </div>
+            </div>
+            <!--Card 7-->
+            <div class="product-card">
+                <div class="offer-badge"></div>
+                <img class="product-img" src="./assets/img/mouse7.jpg" alt="Mouse Argom 2.4 Ghz Wireless" />
+                <div class="product-info">
+                    <h3 class="product-name">
+                        Mouse Argom 2.4 Ghz Wireless
+                    </h3>
+                    <p class="product-desc">
+                        High-performance wireless mouse designed to offer a comfortable and precise user experience. 2.4
+                        GHz technology ensures a stable, interference-free connection, ideal for wireless work or play.
+                        Its ergonomic and compact design, along with its elegant red color, make it easy to use during
+                        long sessions.
+
+                        - ROJO - ARG-MS-0031RD
+                    </p>
+                    <p class="product-price">C$750.48</p>
+                    <button class="product-btn">
+                        Add to cart <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                </div>
+            </div>
+            <!--Card 8-->
+            <div class="product-card">
+                <div class="offer-badge"></div>
+                <img class="product-img" src="./assets/img/monitor8.jpg"
+                    alt="Monitor Hp Series 5 23.8” Fhd 524SW HDMI VGA" />
+                <div class="product-info">
+                    <h3 class="product-name">Monitor Hp Series 5 23.8” Fhd 524SW HDMI VGA</h3>
+                    <p class="product-desc">
+                        Monitor Serie 5 HP 524sw de 23.8" FHD Blanco (1920x1080, IPS, 100 Hz, 5ms)
+                    </p>
+                    <p class="product-price">C$7,106.22</p>
+                    <button class="product-btn">
+                        Add to cart <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
     </main>
     <!--Footer-->
     <footer class="footer">
-      <div class="social-icons">
-        <a href="#" aria-label="Instagram"
-          ><i class="fab fa-instagram social-icon"></i
-        ></a>
-        <a href="#" aria-label="Facebook"
-          ><i class="fab fa-facebook social-icon"></i
-        ></a>
-        <a href="#" aria-label="WhatsApp"
-          ><i class="fab fa-whatsapp social-icon"></i
-        ></a>
-      </div>
-      <p class="copyright">©Nutriamar</p>
+        <div class="social-icons">
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram social-icon"></i></a>
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook social-icon"></i></a>
+            <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp social-icon"></i></a>
+        </div>
+        <p class="copyright">© Comtech 2025</p>
     </footer>
-  </body>
+</body>
+
 </html>
